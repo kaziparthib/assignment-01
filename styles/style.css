@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+ body{ max-width: 1600px;}
+ .btn-all{
+  cursor: pointer;
+}
+.btn-all:hover{
+  background-color: #001931;
+}
+a:hover{
+  background-color: #627382;
+}
 
 .btn-g{
   border: none;
@@ -118,6 +128,55 @@ nav{
   color: #FFFFFF;
   padding: 16.5px 16px 16.5px 46px;
 }
+.knowledge{
+  text-align: center;
+  padding-top: 30px;
+}
+.knowledge h2{
+  font-size: 40px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.knowledge p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+#a{
+  padding-top: 44px;
+}
+.card-container{
+  width: 85%;
+  max-width: 1360;
+  margin: 0 auto;
+}
+.cards{
+  display: flex;
+  gap: 20px;
+}
+.card{
+  text-align: center;
+  box-shadow: 0 1px 4px 0 #9c9696;
+  max-width: 322px;
+  padding: 10px;
+}
+.card h3{
+  font-size: 24px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.card p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+}
+
+.card img{
+  background-color: #F95555;
+  border-radius: 50%;
+  padding: auto;
+}
 
 
 .brain-img img{
@@ -128,14 +187,14 @@ nav{
   width: 600px;
   margin-top: 120px;
   
-  /* box-shadow: 1px 3px 5px rgb(186,172,172); */
+
 }
 .brain-text{
   height:396px ;
   width:800px ;
   margin-top: 220px;
   
-  /* box-shadow: 1px 0px 0px rgb(186, 172, 172); */
+  
 }
 .brain-info{
   display: flex;
@@ -167,4 +226,68 @@ nav{
   color: #001931;
   margin-bottom:16px;
 
+}
+.thinking{
+  border: none;
+   margin: 0 120px 120px 120px;
+ background-color: #F7F6F2;
+ text-align: center;
+ box-shadow: 0 0 0 #627382;
+ height: 385px;
+}
+
+.thinking-text{
+  padding-top: 40px;
+}
+.thinking-text h2{
+  margin: 60px 40px 16px 40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+}
+.thinking-text p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-bottom: 24px;
+
+}
+.btn-text{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  
+}
+.btn-text button{
+  margin-bottom: 16px;
+  
+}
+#last-section{
+  background-color: #001931;
+  height: 348px;
+}
+.social a img{
+  width: 20px;
+  height: 20px;
+  
+}
+.last{
+ padding: 120px 60px 30px 60px;
+ display: flex;
+ justify-content:space-between;
+}
+.links p{
+  font-size: 20px;
+  font-weight: 500px;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+}
+.r{
+  margin: 100px 120px 30px 120px;
+  border-top:1px solid rgb(107, 107, 104) ;
+  padding-top: 10px;
+}
+.r p{
+  text-align: center;
+  color: #FFFFFF;
 }
