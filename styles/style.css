@@ -262,10 +262,12 @@ nav{
   margin-bottom: 16px;
   
 }
+
 #last-section{
   background-color: #001931;
   height: 348px;
 }
+
 .social a img{
   width: 20px;
   height: 20px;
@@ -276,17 +278,20 @@ nav{
  display: flex;
  justify-content:space-between;
 }
+
 .links p{
   font-size: 20px;
   font-weight: 500px;
   margin-bottom: 16px;
   color: #FFFFFF;
 }
+
 .r{
   margin: 100px 120px 30px 120px;
   border-top:1px solid rgb(107, 107, 104) ;
   padding-top: 10px;
 }
+
 .r footer{
   text-align: center;
   color: #FFFFFF;
